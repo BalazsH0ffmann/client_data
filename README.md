@@ -4,6 +4,8 @@ This application is made by PySpark, with the IDE of Pycharm.
 
 The environment is Spark version 3.3.2
 
+The goal of this project was to eliminate the retrieved sensitive data, which occurs GDPR conflict. Also the initial columns names were not acceptable regarding their short names and less meaningful former names.
+
 Initially every needed library was imported.
 
 The first step was to build up this application with the getOrCreate command.
@@ -20,7 +22,7 @@ Then I filtered them only to UK and NL as a countries as the task desired it.
 
 I dropped the columns from the dataframes, namely the sensitive personal data and of course the credit card data as well.
 
-I wrote the 2 dataframes back to the file system as a cleaned dataframes.
+I wrote the 2 dataframes back to the file system as a cleaned dataframes with the overwrite method of Spark.
 
 I specifyed the pathway of the files for supporting the functions later.
 

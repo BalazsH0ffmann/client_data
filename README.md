@@ -20,6 +20,10 @@ Then I filtered them only to UK and NL as a countries.
 
 I dropped the columns from the dataframes.
 
+I wrote the 2 dataframes back to the file system.
+
+I specifyed the pathway of the files for supporting the functions later.
+
 I made 3 functions as was desired between the requirements.
 
 I built up logging function to track the activities and display the reactions from the logging function.

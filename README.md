@@ -27,3 +27,4 @@ I specifyed the pathway of the files for supporting the functions later.
 I made 3 functions as was desired between the requirements.
 
 I built up logging function to track the activities and display the reactions from the logging function.
+Used the Log4j object and I initialized the spark configuration as a base of the logging function.

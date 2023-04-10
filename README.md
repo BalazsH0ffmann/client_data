@@ -15,11 +15,6 @@ The next step was reading the file pathways, with the consideration of the appna
 Displayed the schema to see if there are any changes.
 
 The next step was rename the id columns to avoid to overlapping names which occurs error code inside of spark.
-# |Old name|New name|
-#|--|--|
-#|id|client_identifier|
-#|btc_a|bitcoin_address|
-#|cc_t|credit_card_type|
 
 After I joined them together on the id columns already avoided the confusion of the column names.
 

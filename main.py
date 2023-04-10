@@ -62,6 +62,9 @@ dff2 = dff2.write.mode("overwrite").option("header",True).csv("/Users/Balazs.Hof
 dff1_dir = "/Users/Balazs.Hoffmann/Downloads/data_uk"
 dff2_dir = "/Users/Balazs.Hoffmann/Downloads/data_nl"
 
+#Display the schema one more time
+dff1.printSchema()
+dff2.printSchema()
 
 #Function to get the data pathway at data_uk
 def get_pathway_data_uk():

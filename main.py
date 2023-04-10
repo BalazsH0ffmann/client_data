@@ -71,10 +71,11 @@ def get_pathway_data_uk():
 def get_pathway_data_nl():
     return dff2_dir
 
+#Function to filter the country
 def filter_the_country():
     return dff.filter(dff["country"] == (input("")))
 
-# building up the logging function
+# building up the logging functions
 class Log4j(object):
     """Wrapper class for Log4j JVM object.
     :param spark: SparkSession object.
